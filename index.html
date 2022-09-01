@@ -18,7 +18,11 @@
                 <h1>Login</h1>
                 <p>Seja bem-vindo(a) novamente. Faça login para acessar sue a conta e poder fazer as configurações no seu ambiente.</p>
                 <form action="login.php" method="post">
-
+                    <label for="iemail">Email</label>
+                    <input type="email" name="iemail" id="iemail" required><br>
+                    <label for="ipassword">Senha</label>
+                    <input type="password" name="ipass" id="ipass" required minlength="7">
+                    <input type="submit" value="enviar">
                     
                 </form>
             </div>
